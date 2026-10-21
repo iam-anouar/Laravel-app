@@ -13,9 +13,9 @@ jobs:
       - name: Deploy
         uses: appleboy/ssh-action@v1.2.5
         with:
-          host: ${{ vars.SSH_HOST }}
-          port: ${{ vars.SSH_PORT }}
-          username: ${{ vars.SSH_USER }}
+          host: 200.234.238.163
+          port: 2222
+          username: iam-anouar
           key: ${{ secrets.PRIVATE_KEY }}
           script: |
             set -eu
