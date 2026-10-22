@@ -1,3 +1,6 @@
+<div style="background-color: yellow; color: black; font-size: 32px; font-weight: bold; text-align: center; padding: 25px; border: 5px solid red;">
+    CAMBIO REALIZADO POR ANOUAR - DESPLIEGUE ACTIVO
+</div>
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -28,9 +31,7 @@
                         >
                             Dashboard
                         </a>
-<div style="background: yellow; color: black; padding: 20px; font-size: 28px; font-weight: bold; text-align: center; z-index: 9999; position: relative;">
-    DESPLIEGUE REALIZADO POR ANOUAR - TEST ACTIONS
-</div>
+
                     @else
                         <a
                             href="{{ route('login') }}"
