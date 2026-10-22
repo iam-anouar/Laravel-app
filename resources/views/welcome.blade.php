@@ -28,6 +28,9 @@
                         >
                             Dashboard
                         </a>
+<div style="background: yellow; color: black; padding: 20px; font-size: 28px; font-weight: bold; text-align: center; z-index: 9999; position: relative;">
+    DESPLIEGUE REALIZADO POR ANOUAR - TEST ACTIONS
+</div>
                     @else
                         <a
                             href="{{ route('login') }}"
